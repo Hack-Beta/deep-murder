@@ -12,8 +12,7 @@ class Juno(object):
 
         self.img = self.animations[self.status][self.frame_index]
         self.rect = pygame.Rect(x,y , self.img.get_width() , self.img.get_height())
-        self.speed = speed
-        
+        self.speed = speed  
 
     def import_assets(self):
         self.animations = {
